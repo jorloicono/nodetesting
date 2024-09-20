@@ -28,7 +28,7 @@ jobs:
         run: |
           mkdir -p package
           cp -r src/* package/
-          dp package.json package/
+          cp package.json package/
           zip -r package.zip package/
 
       - name: Upload
