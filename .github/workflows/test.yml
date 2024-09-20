@@ -3,7 +3,7 @@ name: CI - Ejecutar pruebas
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   test:
